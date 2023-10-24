@@ -35,3 +35,29 @@
     font-family: -apple-system-headline;
     
   }
+
+  .button{
+    border: none;
+    color: rgb(83, 78, 78);
+    padding: 30 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 50px;
+    cursor: pointer;
+  }
+
+  div.img {
+    margin: 40px;
+    float: left;
+    width: 180px;
+    
+  }
+
+  div.catalogo
+  {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    display: flex; /* Utilizziamo il flexbox per allineare le immagini orizzontalmente  */
+  }
