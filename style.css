@@ -61,3 +61,26 @@
     border-radius: 12px;
     display: flex; /* Utilizziamo il flexbox per allineare le immagini orizzontalmente  */
   }
+
+ 
+
+  .paragrafo {
+    border: 1px solid #000; /* Imposta un bordo di 1 pixel nero */
+    border-radius: 12px;
+    width: 50%; /* Imposta la larghezza al 50% della larghezza della pagina */
+    margin: 0 auto; /* Imposta i margini automaticamente per centrare l'elemento */
+    padding: 20px; /* Aggiunge spaziatura interna se necessario */
+    text-align: justify; /* Giustifica il testo all'interno del paragrafo */
+    
+  }
+
+  .container {
+    max-width: 1200px; /* Imposta la larghezza massima desiderata per la pagina */
+    margin: 0 auto; /* Centra il contenuto orizzontalmente */
+  }
+
+
+  
+  
+  
+  
