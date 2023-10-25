@@ -36,17 +36,6 @@
     
   }
 
-  .button{
-    border: none;
-    color: rgb(83, 78, 78);
-    padding: 30 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 6px 50px;
-    cursor: pointer;
-  }
 
   div.img {
     margin: 40px;
@@ -85,4 +74,9 @@ div.img2{
   width: 185px;
 }
   
-  
+footer{
+  background-color: #3e3e3e;
+  overflow: hidden;
+  padding:14px 16px;
+  color: #f4f1f1;
+}
