@@ -1,0 +1,88 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: center;
+  }
+  
+ 
+  .topnav a {
+    float: left;
+    color: #f4f1f1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  
+
+  }
+  
+
+  .topnav a:hover {
+    background-color: #dddddde8;
+    color: rgb(220, 211, 211);
+    
+  }
+  
+
+  .topnav a.active {
+    background-color: #000000;
+    color: white;
+  }
+
+  #titolo
+  {
+    padding: 14px 16px;
+    font-family: -apple-system-headline;
+    
+  }
+
+  .button{
+    border: none;
+    color: rgb(83, 78, 78);
+    padding: 30 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 50px;
+    cursor: pointer;
+  }
+
+  div.img {
+    margin: 40px;
+    float: left;
+    width: 180px;
+    
+  }
+
+  div.catalogo
+  {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    display: flex; /* Utilizziamo il flexbox per allineare le immagini orizzontalmente  */
+  }
+
+ 
+
+  .paragrafo {
+    border: 1px solid #000; /* Imposta un bordo di 1 pixel nero */
+    border-radius: 12px;
+    width: 50%; /* Imposta la larghezza al 50% della larghezza della pagina */
+    margin: 0 auto; /* Imposta i margini automaticamente per centrare l'elemento */
+    padding: 20px; /* Aggiunge spaziatura interna se necessario */
+    text-align: justify; /* Giustifica il testo all'interno del paragrafo */
+    
+  }
+
+  .container {
+    max-width: 1200px; /* Imposta la larghezza massima desiderata per la pagina */
+    margin: 0 auto; /* Centra il contenuto orizzontalmente */
+  }
+
+div.img2{
+  margin: 40px;
+  float: right;
+  width: 180px;
+}
+  
+  
